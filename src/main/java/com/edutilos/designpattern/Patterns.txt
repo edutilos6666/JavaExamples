@@ -1,0 +1,27 @@
+Factory
+Singleton
+Builder
+Prototype
+
+Adapter
+Bridge
+Filter
+Composite
+Decorator
+Facade
+Proxy
+
+Chain of Responsibility
+Command
+Iterator
+Observer
+Mediator
+Interpreter
+State
+Null Object
+Strategy
+Template
+Visitor
+MVC
+
+Data Access Object

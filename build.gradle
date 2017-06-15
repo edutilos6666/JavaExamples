@@ -32,5 +32,7 @@ dependencies {
     compile group: 'javax.xml', name: 'jaxp-api', version: '1.4.2'
 // https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.2.11'
+// https://mvnrepository.com/artifact/jfree/jfreechart
+    compile group: 'jfree', name: 'jfreechart', version: '1.0.13'
 
 }
