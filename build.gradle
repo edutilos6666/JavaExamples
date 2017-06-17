@@ -34,5 +34,13 @@ dependencies {
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.2.11'
 // https://mvnrepository.com/artifact/jfree/jfreechart
     compile group: 'jfree', name: 'jfreechart', version: '1.0.13'
+// https://mvnrepository.com/artifact/org.testng/testng
+    testCompile group: 'org.testng', name: 'testng', version: '6.11'
+// https://mvnrepository.com/artifact/org.jboss.arquillian.testng/arquillian-testng-container
+    testCompile group: 'org.jboss.arquillian.testng', name: 'arquillian-testng-container', version: '1.1.13.Final'
+// https://mvnrepository.com/artifact/org.jboss.arquillian.junit/arquillian-junit-container
+    testCompile group: 'org.jboss.arquillian.junit', name: 'arquillian-junit-container', version: '1.1.13.Final'
+// https://mvnrepository.com/artifact/org.spockframework/spock-core
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.1-groovy-2.4'
 
 }
