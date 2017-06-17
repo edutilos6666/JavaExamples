@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <servlet>
+        <servlet-name>Example1</servlet-name>
+        <servlet-class>com.edutilos.servlet.Example1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Example1</servlet-name>
+        <url-pattern>/Example1</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Example2 -->
+    <servlet>
+        <servlet-name>Example2</servlet-name>
+        <servlet-class>com.edutilos.servlet.Example2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Example2</servlet-name>
+        <url-pattern>/Example2</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- Example3GetParams -->
+    <servlet>
+        <servlet-name>Example3GetParams</servlet-name>
+        <servlet-class>com.edutilos.servlet.Example3GetParams</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Example3GetParams</servlet-name>
+        <url-pattern>/Example3GetParams</url-pattern>
+    </servlet-mapping>
+
+    <!-- Example3PostParams -->
+    <servlet>
+        <servlet-name>Example3PostParams</servlet-name>
+        <servlet-class>com.edutilos.servlet.Example3PostParams</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Example3PostParams</servlet-name>
+        <url-pattern>/Example3PostParams</url-pattern>
+    </servlet-mapping>
+</web-app>
