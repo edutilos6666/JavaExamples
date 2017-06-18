@@ -50,5 +50,11 @@ dependencies {
     compile group: 'javax.el', name: 'javax.el-api', version: '3.0.0'
 // https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl
     compile group: 'javax.servlet.jsp.jstl', name: 'jstl', version: '1.2'
+// https://mvnrepository.com/artifact/org.eclipse.swt/org.eclipse.swt.gtk.linux.x86_64
+    compile group: 'org.eclipse.swt', name: 'org.eclipse.swt.gtk.linux.x86_64', version: '4.3'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.10.Final'
+// https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
+    testCompile group: 'org.hibernate.validator', name: 'hibernate-validator', version: '6.0.0.Beta2'
 
 }
